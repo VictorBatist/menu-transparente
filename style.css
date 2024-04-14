@@ -26,7 +26,7 @@ body{
     justify-content: space-between;
 }
 
-.container .flex img{
+.container .image-menu{
     width: 100px;
 }
 
@@ -55,6 +55,28 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    transition: .5s;
+}
+
+header.rolagem-site{
+    background-color: white;
+    padding: 20px 4%;
+}
+
+header.rolagem-site a{
+    color: black;
+}
+
+header.rolagem-site .button-contato button{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-size: 400;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
 }
 
 header ul{
@@ -69,6 +91,23 @@ header ul li{
 header ul li a{
     color: white;
     text-decoration: none;
+}
+
+header a{
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+header ul li a:hover{
+    color: rgb(97, 97, 97) ;
+    transform: scale(1.05);
 }
 
 /* Estilizando Topo do site */
@@ -95,18 +134,4 @@ section.topo-site .flex{
 
 .topo-site .image-topo-site{
     width: 300px;
-}
-
-.topo-site .image-topo-site{
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
-}
-
-@keyframes flutuar {
-    0%{
-        top:0;
-    }
-    100%{
-        top:30px;
-    }
 }
