@@ -1,0 +1,137 @@
+/* Estilo Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    height: 500vh;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+.container .image-menu{
+    width: 100px;
+}
+
+.button-contato button{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-size: 400;
+    background-color:white;
+    color: black;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #ffffff;
+    transform: scale(1.05);
+}
+
+/* Estilizando Header */
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem-site{
+    background-color: white;
+    padding: 20px 4%;
+}
+
+header.rolagem-site a{
+    color: black;
+}
+
+header.rolagem-site .button-contato button{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-size: 400;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header a{
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+header ul li a:hover{
+    color: rgb(97, 97, 97) ;
+    transform: scale(1.05);
+}
+
+/* Estilizando Topo do site */
+
+section.topo-site{
+    padding: 40px 4%;
+    margin-top: 200px;
+}
+
+section.topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-site h1{
+    color: white;
+    font-size: 40px;
+}
+
+.topo-site h1 span{
+    color: rgb(156, 156, 156);
+}
+
+.topo-site .image-topo-site{
+    width: 300px;
+}
