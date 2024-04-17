@@ -123,15 +123,30 @@ section.topo-site .flex{
     gap: 90px;
 }
 
-.topo-site h1{
+.topo-site .text-topo h1{
     color: white;
+    font-size: 60px;
+}
+
+.topo-site  .text-topo h1 span{
+    color: rgb(156, 156, 156);
+}
+
+.topo-site .text-topo h2{
+    color:rgb(156, 156, 156) ;
     font-size: 40px;
 }
 
-.topo-site h1 span{
-    color: rgb(156, 156, 156);
+.topo-site .text-topo h2 span{
+    color: white;
 }
 
 .topo-site .image-topo-site{
     width: 300px;
 }
+
+.topo-site .image-topo-site{
+    transform: rotate(90deg);
+    transition: 5s;
+}
+
