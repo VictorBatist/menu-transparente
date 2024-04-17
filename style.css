@@ -78,6 +78,7 @@ header{
 header.rolagem-site{
     background-color: white;
     padding: 30px 4%;
+    z-index: 99999999999;
 }
 
 header.rolagem-site a{
@@ -142,6 +143,7 @@ section.topo-site .flex{
 .topo-site .text-topo{
     text-align: center;
 }
+
 .topo-site .text-topo h1{
     color: white;
     font-size: 60px;
@@ -203,5 +205,67 @@ section.sobre p{
     font-size: 20px;
     margin: 20px;
 }
+
+@media screen and (max-width: 1200px){
+
+/* Ajustando o Geral */
+
+.flex{
+    flex-direction: column;
+    }
+    
+    .topo-site .flex{
+        flex-direction: column-reverse;
+    } 
+    
+    .menu-header , .button-contato {
+        display: none;
+    }
+
+/* Ajustando o topo do site */
+
+section.topo-site{
+    padding: 20px 8%;
+}
+
+section.topo-site .flex{
+    gap: 90px;
+}
+
+.topo-site .image-topo-site{
+    width: 250px;
+}
+
+.topo-site .text-topo h1{
+    font-size: 50px;
+}
+
+.topo-site .text-topo h2{
+    font-size: 30px;
+}
+
+/* Ajustando a section sobre */
+
+section.sobre{
+    padding: 60px 8%;
+}
+
+section.sobre .flex{
+    gap: 50px;
+    flex-direction: column-reverse;
+}
+
+section.sobre .image-sobre-mim{
+    width: 250px;
+}
+
+section.sobre .text-sobre-mim p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+}
+
 
 
