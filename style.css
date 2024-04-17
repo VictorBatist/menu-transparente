@@ -26,7 +26,7 @@ body{
     justify-content: space-between;
 }
 
-.container .image-menu{
+.container .logo-menu{
     width: 100px;
 }
 
@@ -43,7 +43,7 @@ body{
 }
 
 button:hover{
-    box-shadow: 0px 0px 8px #ffffff;
+    box-shadow: 0px 0px 8px #ffeeee;
     transform: scale(1.05);
 }
 
@@ -60,7 +60,7 @@ header{
 
 header.rolagem-site{
     background-color: white;
-    padding: 20px 4%;
+    padding: 30px 4%;
 }
 
 header.rolagem-site a{
@@ -101,7 +101,7 @@ header a{
 }
 
 header a:hover{
-    color: white;
+    color: rgb(255, 254, 254);
     transform: scale(1.05);
 }
 
