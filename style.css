@@ -26,8 +26,9 @@ body{
     justify-content: space-between;
 }
 
-.container .image-menu{
-    width: 100px;
+.container .icon-Logo-Still-Code{
+    font-size: 100px;
+    margin-top: 0;
 }
 
 .button-contato button{
@@ -43,7 +44,7 @@ body{
 }
 
 button:hover{
-    box-shadow: 0px 0px 8px #ffffff;
+    box-shadow: 0px 0px 8px #ffeeee;
     transform: scale(1.05);
 }
 
@@ -65,6 +66,10 @@ header.rolagem-site{
 
 header.rolagem-site a{
     color: black;
+}
+
+header.rolagem-site a:hover{
+    color: rgb(114, 110, 110);
 }
 
 header.rolagem-site .button-contato button{
@@ -101,7 +106,7 @@ header a{
 }
 
 header a:hover{
-    color: white;
+    color: rgb(255, 254, 254);
     transform: scale(1.05);
 }
 
