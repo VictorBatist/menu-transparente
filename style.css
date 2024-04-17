@@ -26,9 +26,8 @@ body{
     justify-content: space-between;
 }
 
-.container .icon-Logo-Still-Code{
-    font-size: 100px;
-    margin-top: 0;
+.container .logo-menu{
+    width: 100px;
 }
 
 .button-contato button{
@@ -61,15 +60,11 @@ header{
 
 header.rolagem-site{
     background-color: white;
-    padding: 20px 4%;
+    padding: 30px 4%;
 }
 
 header.rolagem-site a{
     color: black;
-}
-
-header.rolagem-site a:hover{
-    color: rgb(114, 110, 110);
 }
 
 header.rolagem-site .button-contato button{
